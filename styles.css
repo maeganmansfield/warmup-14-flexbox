@@ -1,0 +1,23 @@
+body,h1,h2,h3,p{margin: 0;}
+html {background-color: bisque;
+}
+
+.site-nav{background-color: cyan; 
+    list-style-type: none; 
+    padding: 0%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.main-nav-link{background-color: cornflowerblue; padding: 10px; display: block;
+}
+
+.article{background-color: aquamarine;
+    flex-grow: 1;
+}
+
+.sidebar{background-color: lightblue;
+    flex: 0 0 200px;
+}
+
+.main-content{display: flex; gap: 40px;}
